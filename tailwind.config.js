@@ -23,22 +23,22 @@ export default {
           "2xl": "6rem",
         },
       },
-      fontFamily:{
-        body: ['Poppins', 'sana-serif']
+      fontFamily: {
+        body: ["Poppins", "sana-serif"],
       },
-      keyframes:{
-        rocket:{
-          "0%, 100%":{
-            transform:"rotate(-2deg) translate(0px, 0px)",
+      keyframes: {
+        rocket: {
+          "0%, 100%": {
+            transform: "rotate(-2deg) translate(0px, 0px)",
           },
-          "50%":{
+          "50%": {
             transform: "rotate(2deg) translate(50px, 50px)",
-          }
-        }
+          },
+        },
       },
-      animation:{
-        rocket:"rocket 3s linear infinite"
-      }
+      animation: {
+        rocket: "rocket 3s linear infinite",
+      },
     },
   },
   plugins: [],

@@ -1,7 +1,7 @@
 import React from "react";
-import Clouds from "../../assets/clouds.svg";
-import Rocket from "../../assets/rocket.svg";
-import Planet from "../../assets/planet.svg";
+import Clouds from "/assets/clouds.svg";
+import Rocket from "/assets/rocket.svg";
+import Planet from "/assets/planet.svg";
 
 const Hero = () => {
   const CloudBG = {
@@ -16,13 +16,13 @@ const Hero = () => {
         style={CloudBG}
         className="relative bg-primary flex justify-center items-center overflow-hidden min-h-[650px]"
       >
-        <div className="container text-white grid grid-cols-1 md:grid-cols-2 place-items-center">
+        <div className="container grid grid-cols-1 text-white md:grid-cols-2 place-items-center">
           {/* text section */}
-          <div className=" mt-20 text-center md:text-left items-center md:items-start space-y-6 py-10 z-10">
+          <div className="z-10 items-center py-10 mt-20 space-y-6 text-center md:text-left md:items-start">
             <p
               data-aos="fade-up"
               data-aos-offset="0"
-              className="uppercase text-base text-white/80 "
+              className="text-base uppercase text-white/80 "
             >
               expLORE THE UNIVERSE
             </p>
@@ -45,7 +45,7 @@ const Hero = () => {
               wonders of the universe.
             </p>
             <div data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-              <button className="shadow-custom-inset bg-secondary px-8 py-2 rounded-full hover:scale-105 transition duration-200">
+              <button className="px-8 py-2 transition duration-200 rounded-full shadow-custom-inset bg-secondary hover:scale-105">
                 Get started
               </button>
             </div>
